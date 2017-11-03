@@ -1,0 +1,187 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin: 0 auto;
+    font-family: 'Crimson Text', serif;
+
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rozha One', serif;
+    font-size: 480%;
+    margin: 0;
+}
+
+h4 {
+    font-size: 180%;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 100%;
+}
+
+.bgimage {
+    height: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2.biography, h2.novel {
+    font-size: 300%;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+a {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+a:hover, a:visited {
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+/* Landing Page*/
+
+/*
+.landing_page {
+    background-color: bisque;
+    height: 100%; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+*/
+
+.landing_page_bg {
+    position: relative;
+    background-color: bisque;
+    height: 100%
+}
+
+.landing_page {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+
+.read_more {
+    text-align: center;
+}
+
+img.khaled_pic {
+    width: 50%;
+    align-content: center;
+
+/*
+
+.landing_page_content {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+
+*/
+
+
+}
+/* Bio Title */
+
+.bio_title {
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/1200px-Flag_of_Afghanistan.svg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Bio */
+
+.bio_content {
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.biography {
+    color: white;
+}
+
+/* Novel Title */
+.novel_title {
+    background-image: url("http://secretsofthefed.com/wp-content/uploads/2014/03/o-BOOK-PAGES-facebook.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Novel */
+.novels_content {
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.novel {
+    text-align: left;
+}
+
+.novel_pic {
+    width: 100%;
+}
+/* Quote */
+.quote {
+    background-color: bisque;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_text {
+    text-align: center;
+}
+
+a.resources {
+    font-family: 'Crimson Text', serif;
+
+}
+
+/* Resources */ 
+.resources_parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
